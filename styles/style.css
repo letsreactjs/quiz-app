@@ -1,5 +1,5 @@
 body{
-  background: #8e44ad;
+  background: #2ecc71;
   color: #fff;
 }
 *{
@@ -7,14 +7,39 @@ body{
   padding: 0;
   box-sizing: border-box;
 }
+.code-box{
+  background: #333;
+  padding: 20px;
+  color: #fff;
+}
+.class-box{
+  color: #f1c40f;
+}
+.id-box{
+  color: #3498db;
+}
+.code-string{
+  color: #2ecc71;
+}
+.danger{
+  background: #c0392b;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+.success{
+  background: #2ecc71;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
 #wrapper{
   width: 90%;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 20px auto;
   background: #fff;
   color: #555;
   position: relative;
-  top: 50px;
 }
 
 header{
@@ -24,4 +49,33 @@ header{
 }
 main{
   padding: 20px;
+}
+#question{
+
+}
+#question > h3{
+  margin: 0px 0 20px 0;
+}
+#call-to-action{
+  margin: 15px 0;
+  position: relative;
+}
+#call-to-action button{
+  padding: 10px;
+  border: none;
+  background: #f1c40f;
+  color: #fff;
+  cursor: pointer;
+}
+#call-to-action button:disabled{
+  background: #ddd;
+  color: #999;
+  cursor: not-allowed;
+}
+#error-box{
+  background: #c0392b;
+  padding: 5px;
+  color: #fff;
+  display: none;
+  font-size: 10px;
 }
